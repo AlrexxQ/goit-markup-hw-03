@@ -64,7 +64,9 @@ color: var(--primary-text-color)
 .navigation-link:focus {
     color: var(--secondary-accent-color);
 }
-
+.navigation-link.current{
+background-color: var(--dark-background-text);
+}
 .addres-mail,.addres-tel {
     font-style: normal;
     font-size: 16px;
