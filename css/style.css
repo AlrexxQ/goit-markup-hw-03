@@ -215,7 +215,7 @@ background-color: var(--primary-accent-color);
 }
 .work-item {
     
-    flex-basis: calc( 100% / 4 - 24px );
+    flex-basis: calc((100% - 72px) / 4);
     
 }
 .work-name {
