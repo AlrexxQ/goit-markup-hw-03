@@ -208,13 +208,15 @@ background-color: var(--primary-accent-color);
     clip-path: inset(50%);
     margin: 1px;
 }
+.work-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
 .work-list{
     display: flex;
     flex-wrap: wrap;
     }
-.work-item {
-        flex-basis: calc((100% - 72px) / 4);
-    }
+
 .work-name {
     margin-bottom: 8px;
 }
