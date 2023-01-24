@@ -211,7 +211,7 @@ background-color: var(--primary-accent-color);
 .work-list{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -24px; 
+    
 }
 .work-item {
     
